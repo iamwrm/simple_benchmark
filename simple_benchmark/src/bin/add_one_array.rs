@@ -8,6 +8,12 @@ fn main() {
     array_loop::<4>();
     array_loop::<8>();
     array_loop::<16>();
+    array_loop::<20>();
+    array_loop::<21>();
+    array_loop::<22>();
+    array_loop::<23>();
+    array_loop::<25>();
+    array_loop::<30>();
     array_loop::<32>();
     array_loop::<64>();
     array_loop::<128>();

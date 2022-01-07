@@ -23,8 +23,9 @@ pub fn array_loop<const ARRAY_LEN: usize>() {
         }
     }
     println!(
-        "Elapsed time: {} ms | {} ",
+        "Elapsed time: {} ms | {} {}",
         start.elapsed().as_millis(),
+        ARRAY_LEN,
         ARRAY_LEN * 64,
     );
 }
